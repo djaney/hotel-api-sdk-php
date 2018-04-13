@@ -201,7 +201,7 @@ class HotelApiClient
     /**
      * @return Response
      */
-    public function getLastResponse(): Response
+    public function getLastResponse()
     {
         return $this->lastResponse;
     }
